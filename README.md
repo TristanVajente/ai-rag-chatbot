@@ -12,6 +12,6 @@ Angular project with angular 18 (Node 20)
 
 ## Ai model
 
-Ollama llama3:7b  
+Ollama llama3:8b  
 
 `ollama run llama3`
