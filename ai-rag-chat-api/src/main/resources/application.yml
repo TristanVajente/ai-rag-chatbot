@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ai-rag-chat-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432
+    username: postgres
+    password: ''
+    driver-class-name: org.postgresql.Driver
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434 # Default URL for Ollama
+      chat:
+        options:
+          model: llama3
